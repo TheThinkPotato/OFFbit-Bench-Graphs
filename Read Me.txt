@@ -1,0 +1,59 @@
+OFFbit Perfomance Graphs Read Me
+================================
+Please use this software at your own risk.
+This software is used for making the benchmark images that are used
+in the OFFbits Tech videos on YouTube.
+
+if you would like to make any contributions to the OFFbit please support us
+on Patreon.
+
+Patreon Link: 		https://www.patreon.com/OFFbit
+OFFbits YouTube Link: 	https://www.youtube.com/channel/UC4_lTAeps_2kk0oy4Bh-klg
+
+Below are the files of main interest;
+
+
+Executables
+-----------
+Graphs.bat			- Creats graphs for GPUs spread sheet
+Graphs - Old GPUs.bat		- Creats graphs for Old GPUs spread sheet
+openpyxl install.bat		- Installs Excel dependency
+
+Excel Files
+-----------
+cpu scores.xlsx			- Stored benchmark values for CPUs
+gpu-Bench Graph.xlsx		- Stored benchmark values for GPus
+gpu-Bench Graph Old Card.xlsx	- Sotred benchmark values for Older GPUs
+
+
+Install Instructions
+====================
+Please note that this software is not fully tested and not all operating systems
+have support or instructions. Please use at your own risk.
+
+Windows
+-------
+Simply run "openpyxl install.bat" to install openpyxl
+Now run edit spreadsheet files then run "Graphs.bat" or "Graphs - Old GPUs.bat"
+
+Linux
+-----
+Untested
+
+Apple Mac
+---------
+Untested
+
+
+Usage notes
+===========
+Insert values into to coresponding spreadsheet.
+The first row is the focused item (the current item you are interested in).
+
+Simply run the Graphs or Graphs - Old GPUs batch file to start the script.
+
+Once running if you want to grab a screen shot use either "ALT - PRINT SCREEN"
+or waht we use is "WINDOWS - SHIFT - S" for the windows snipping tool.
+
+Any other operating system you will have to get creative, this script has been
+made for Windows operating systems.
